@@ -1,0 +1,12 @@
+import sqlite3
+
+conn = sqlite3.connect(r"C:\Users\thatt\OneDrive\Desktop\python\example.db")
+c = conn.cursor()
+
+name = ('Guido',)
+
+c.execute('SELECT * FROM users WHERE fname = ? ',name)
+
+result = c.fetchall()
+for x in result :
+    print(x)

@@ -1,0 +1,21 @@
+print("----------------------------------------\n       + โปรแกรมหยิบสินค้าใส่ตะกร้า +\n----------------------------------------")
+
+storelist = []
+item01 = input("หยิบสินค้าชิ้นที่ 1 : ")
+storelist.append(item01)
+item02 = input("หยิบสินค้าชิ้นที่ 2 : ")
+storelist.append(item02)
+item03 = input("หยิบสินค้าชิ้นที่ 3 : ")
+storelist.append(item03)
+item04 = input("หยิบสินค้าชิ้นที่ 4 : ")
+storelist.append(item04)
+item05= input("หยิบสินค้าชิ้นที่ 5 : ")
+storelist.append(item05)
+
+print("\n - รายการสินค้าในตะกร้าทั้งหมดมีดังนี้ - \n")
+print("1." , storelist[0]) 
+print("2." , storelist[1])
+print("3." , storelist[2])
+print("4." , storelist[3])
+print("5." , storelist[4])
+print("\n - โปรดชำระเงินก่อนออกจากร้าน - \n")
